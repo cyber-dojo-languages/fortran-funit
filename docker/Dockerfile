@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/fortran:7.3.0
+FROM  cyberdojofoundation/fortran
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apt-get update && apt-get install --yes \
