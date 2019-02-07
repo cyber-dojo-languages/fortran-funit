@@ -1,8 +1,13 @@
-FROM  cyberdojofoundation/fortran
+FROM cyberdojofoundation/fortran
 LABEL maintainer=jon@jaggersoft.com
 
-ADD install.sh /
-RUN /install.sh && rm -f /install.sh
+RUN \
+apt-get update && \
+apt-get install --yes \
+  ruby \
+  make && \
+\
+gem install funit
 
 ENV FC gfortran
 
