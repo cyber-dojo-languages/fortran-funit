@@ -10,7 +10,5 @@
 
   "display_name": "Fortran, FUnit",
 
-  "image_name": "cyberdojofoundation/fortran_funit",
-
-  "runner_choice": "stateless"
+  "image_name": "cyberdojofoundation/fortran_funit"
 }
