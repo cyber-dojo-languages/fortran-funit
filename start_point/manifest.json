@@ -1,14 +1,13 @@
 
 {
+  "image_name": "cyberdojofoundation/fortran_funit",
+  "display_name": "Fortran, FUnit",
   "visible_filenames": [
     "hiker.fun",
     "hiker.f90",
     "cyber-dojo.sh"
   ],
-
   "filename_extension": [ ".f90", ".fun" ],
-
-  "display_name": "Fortran, FUnit",
-
-  "image_name": "cyberdojofoundation/fortran_funit"
+  "max_seconds": 10,
+  "tab_size": 4
 }
