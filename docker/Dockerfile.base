@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/fortran
+FROM cyberdojofoundation/fortran:ae76bf8
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apt-get install --yes ruby make \
