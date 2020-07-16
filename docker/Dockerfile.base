@@ -1,9 +1,6 @@
-FROM cyberdojofoundation/fortran:ae76bf8
+FROM cyberdojofoundation/fortran:1c4a384
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apt-get install --yes ruby make \
-&& gem install funit
-
+RUN apk add --no-cache ruby make && gem install funit
 ENV FC gfortran
-
 COPY red_amber_green.rb /usr/local/bin
