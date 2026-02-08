@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/fortran:1c4a384
+FROM ghcr.io/cyber-dojo-languages/fortran:e661b33
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apk add --no-cache ruby make && gem install funit
