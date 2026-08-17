@@ -3,4 +3,3 @@ LABEL maintainer=jon@jaggersoft.com
 
 RUN apk add --no-cache ruby make && gem install funit
 ENV FC gfortran
-COPY red_amber_green.rb /usr/local/bin
