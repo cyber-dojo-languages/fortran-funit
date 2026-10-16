@@ -1,5 +1,6 @@
-FROM ghcr.io/cyber-dojo-languages/fortran:a864146
+FROM ghcr.io/cyber-dojo-languages/fortran:214aa08
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apk add --no-cache ruby make && gem install funit
+COPY install.sh .
+RUN sh ./install.sh && rm ./install.sh
 ENV FC gfortran
